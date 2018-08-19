@@ -11,10 +11,9 @@ import UIKit
 
 class WalkthroughPageViewController: UIPageViewController, UIPageViewControllerDataSource {
 
-    var pageHeadings = ["Personalize", "Locate", "Discover"]
-    var pageImages = ["foodpin-intro-1", "foodpin-intro-2", "foodpin-intro-3"]
+    var pageHeadings = ["Personalize", "Discover"]
+    var pageImages = ["foodpin-intro-1", "foodpin-intro-3"]
     var pageContent = ["Pin your favorite restaurants and create your own food guide",
-                       "Search and locate your favourite restaurant on Maps",
                        "Find restaurants pinned by your friends and other foodies around the world"]
     
     override func viewDidLoad() {
